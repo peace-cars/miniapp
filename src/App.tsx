@@ -1,4 +1,4 @@
-import React, { useState, useEffect, lazy, Suspense } from 'react';
+import { useState, useEffect, lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './lib/auth';
 import { ClientCache } from './lib/cache';
@@ -46,7 +46,7 @@ function AppContent() {
   useEffect(() => {
     if (!session?.user?.id) return;
     const uid = session.user.id;
-    const token = session.access_token;
+
     // Fire all prefetches in parallel, silently — no UI blocking
     const prefetch = (url: string) =>
       ClientCache.swr(url, () => {}, () => {}).catch(() => {});
