@@ -59,7 +59,7 @@ const VehicleDetail = () => {
 
   useEffect(() => {
     if (session?.profile?.phone_number && !tradeInForm.contactPhone) {
-      setTradeInForm(p => ({ ...p, contactPhone: session.profile.phone_number }));
+      setTradeInForm(p => ({ ...p, contactPhone: session.profile!.phone_number || '' }));
     }
   }, [session]);
 
