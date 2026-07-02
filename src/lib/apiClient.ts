@@ -121,8 +121,8 @@ function setCachedData(key: string, data: any) {
       data,
       timestamp: Date.now()
     }));
-  } catch (e) {
-    if (e.name === 'QuotaExceededError') {
+  } catch (e: any) {
+    if (e?.name === 'QuotaExceededError') {
       Object.keys(localStorage)
         .filter(k => k.startsWith(CACHE_PREFIX))
         .forEach(k => localStorage.removeItem(k));
