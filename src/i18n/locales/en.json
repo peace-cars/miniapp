@@ -1,0 +1,353 @@
+{
+  "nav": {
+    "home": "Home",
+    "sell": "Sell",
+    "inventory": "Inventory",
+    "messages": "Messages",
+    "profile": "Profile",
+    "sourcing": "Custom Sourcing",
+    "dashboard": "Dashboard",
+    "login": "Login",
+    "logout": "Logout",
+    "desktop_buy": "Buy",
+    "desktop_sell": "Sell",
+    "desktop_source": "Source",
+    "desktop_track": "Track",
+    "desktop_community": "Community",
+    "desktop_messages": "Messages",
+    "desktop_profile": "Profile",
+    "more": "More",
+    "dark_mode": "Dark Mode",
+    "light_mode": "Light Mode",
+    "off": "Off",
+    "on": "On",
+    "sign_out": "Sign Out",
+    "sign_in": "Sign In",
+    "install_app": "Install App",
+    "title_inventory": "Browse",
+    "title_sell": "Sell",
+    "title_custom_sourcing": "Source",
+    "title_track": "Track",
+    "title_messages": "Messages",
+    "title_community": "Community",
+    "title_profile": "Profile",
+    "title_compare": "Compare",
+    "title_sourcing": "Sourcing",
+    "title_custom_order": "Custom Order",
+    "track": "Track Request",
+    "community": "Community",
+    "compare": "Compare Cars",
+    "my_sourcing": "My Sourcing"
+  },
+  "home": {
+    "hero_title": "Find your next vehicle with confidence",
+    "hero_subtitle": "Ethiopia's premier platform for verified vehicles, transparent pricing, and seamless transactions.",
+    "cta_buy": "Browse Inventory",
+    "cta_sell": "Sell Your Car"
+  },
+  "inventory": {
+    "sort": {
+      "featured": "Featured",
+      "price_low": "Price: Low to High",
+      "price_high": "Price: High to Low",
+      "year_new": "Year: Newest First",
+      "km_low": "Mileage: Lowest First"
+    },
+    "payment": {
+      "duty_free": "Bank-Financed",
+      "duty_paid": "Fully Paid",
+      "duty_pending": "Payment Pending"
+    },
+    "badges": {
+      "electric": "Electric",
+      "interested": "interested"
+    },
+    "status": {
+      "used": "Used",
+      "new": "New"
+    },
+    "filters": {
+      "make": "Make",
+      "fuel_type": "Fuel Type",
+      "payment_status": "Payment Status",
+      "price": "Price (M ETB)",
+      "year": "Year",
+      "clear_all": "Clear All Filters",
+      "clear": "Clear all",
+      "show_results": "Show {{count}} results"
+    },
+    "header": {
+      "title": "Browse Listings",
+      "subtitle": "{{count}} inspected, certified vehicles in Addis Ababa"
+    },
+    "search": {
+      "filters": "Filters",
+      "placeholder": "Search make or model..."
+    },
+    "results": {
+      "count": "<0>{{filtered}}</0> of {{total}} vehicles"
+    },
+    "empty": {
+      "title": "No matches found",
+      "subtitle": "Try adjusting your filters or search term."
+    }
+  },
+  "common": {
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success"
+  },
+  "language": {
+    "select": "Select Language",
+    "en": "English",
+    "am": "አማርኛ"
+  },
+  "details": {
+    "actions": {
+      "inquire": "Inquire",
+      "contact_advisor": "Contact Advisor",
+      "trade_in": "Trade-In Estimate",
+      "telegram": "Inquire on Telegram",
+      "community": "Discuss in Community"
+    },
+    "badges": {
+      "inspected": "Inspected",
+      "certified": "Certified",
+      "delivery": "Ready for delivery in Addis Ababa",
+      "integrity": "Verified Integrity Guaranteed",
+      "free_delivery": "Free Delivery in Addis Ababa",
+      "registry": "Main Registry"
+    },
+    "stats": {
+      "viewed_today": "viewed today",
+      "inquiries": "inquiries"
+    },
+    "specs": {
+      "powertrain": "Powertrain",
+      "architecture": "Architecture",
+      "certified_mileage": "Certified Mileage",
+      "kilometers": "Kilometers",
+      "valuation": "Valuation",
+      "ethiopian_birr": "Ethiopian Birr",
+      "payment": "Payment",
+      "status": "Status",
+      "fully_paid": "Fully Paid",
+      "electric": "ELECTRIC",
+      "year": "Year",
+      "fuel_type": "Fuel Type",
+      "payment_status": "Payment Status",
+      "certified_km": "Certified KM",
+      "vin": "VIN / Chassis",
+      "plate": "Plate Code",
+      "os_lang": "OS Language",
+      "range": "Range",
+      "battery": "Battery Capacity",
+      "motor": "Motor Power",
+      "drivetrain": "Drive Train",
+      "interior": "Interior"
+    },
+    "similar": {
+      "title": "You might also like",
+      "subtitle": "Similar vehicles in our collection"
+    },
+    "trade_in": {
+      "title": "Trade-In Estimate",
+      "submit": "Calculate Trade-In Value",
+      "badge": "Equity Analysis"
+    },
+    "glance": {
+      "title": "At a Glance"
+    },
+    "price": {
+      "starting_at": "Starting at"
+    },
+    "standard": {
+      "title": "The Peace Standard."
+    },
+    "portfolio": {
+      "title": "Technical Portfolio."
+    },
+    "gallery": {
+      "main_image": "{{model}} - Image {{current}}",
+      "thumb": "Thumb {{current}}",
+      "counter": "{{current}} of {{total}}",
+      "close": "Close Gallery",
+      "slide": "Slide {{current}}"
+    }
+  },
+  "sell": {
+    "landing": {
+      "title": "Identity Verification.",
+      "subtitle": "Please sign in to securely submit your vehicle for a professional appraisal.",
+      "signin": "Sign In to Continue"
+    },
+    "auth": {
+      "title": "Identity Verification.",
+      "subtitle": "Please sign in to securely submit your vehicle for a professional appraisal.",
+      "sign_in": "Sign In to Continue"
+    },
+    "steps": {
+      "contact": {
+        "title": "Contact Information.",
+        "subtitle": "How should we reach you with your valuation?",
+        "nav": "Contact"
+      },
+      "identity": {
+        "title": "Vehicle Identity.",
+        "subtitle": "The basics of your car.",
+        "nav": "Identity",
+        "select_make": "Select Manufacturer..."
+      },
+      "specs": {
+        "title": "Technical Specs.",
+        "subtitle": "Engine, drivetrain, and powertrain details.",
+        "nav": "Specs"
+      },
+      "history": {
+        "title": "Legal & History.",
+        "subtitle": "Crucial details for accurate pricing in Ethiopia.",
+        "nav": "History"
+      },
+      "photos": {
+        "title": "Photos & Inspection.",
+        "subtitle": "Upload clear photos (Front, Rear, Interior, Libre) and choose a drop-off center.",
+        "nav": "Photos"
+      },
+      "review": {
+        "title": "Review & Submit.",
+        "subtitle": "Please verify your vehicle details before finalizing.",
+        "nav": "Review"
+      },
+      "success": {
+        "title": "Request Received.",
+        "subtitle": "We've securely received the details for your vehicle. Our evaluation team will review the specifications and contact you."
+      }
+    },
+    "success": {
+      "title": "Request Received.",
+      "body_prefix": "We've securely received the details for your",
+      "body_suffix": "Our evaluation team will review the specifications and contact you at"
+    },
+    "nav": {
+      "vehicle_details": "Vehicle Details",
+      "review_details": "Review Details"
+    },
+    "actions": {
+      "track": "Track Status",
+      "return": "Return to Showroom",
+      "submitting": "Submitting...",
+      "confirm": "Confirm & Submit",
+      "continue": "Continue"
+    }
+  },
+  "match_finder": {
+    "title": "Match Finder",
+    "questions": {
+      "purpose": {
+        "text": "What's your main driving environment?",
+        "subtitle": "This helps us match the right body style.",
+        "options": {
+          "CITY": { "label": "City Commuting", "desc": "Sedan, hatchback, compact" },
+          "OFFROAD": { "label": "Off-road / Adventure", "desc": "SUV, crossover, 4×4" },
+          "FAMILY": { "label": "Family / Long Distance", "desc": "Minivan, large SUV" }
+        }
+      },
+      "priority": {
+        "text": "What do you value most?",
+        "subtitle": "We'll prioritize your preference in results.",
+        "options": {
+          "EFFICIENCY": { "label": "Fuel Economy / EV", "desc": "Electric or hybrid" },
+          "LUXURY": { "label": "Luxury & Comfort", "desc": "Premium interior & features" },
+          "RESALE": { "label": "Durability & Resale", "desc": "Long-term value" }
+        }
+      },
+      "budget": {
+        "text": "What is your budget range?",
+        "subtitle": "All prices are in Ethiopian Birr.",
+        "options": {
+          "BUDGET": { "label": "Under 3M ETB", "desc": "Practical & reliable" },
+          "MID": { "label": "3M – 8M ETB", "desc": "Great balance of value" },
+          "PREMIUM": { "label": "Above 8M ETB", "desc": "Top-tier selection" }
+        }
+      }
+    },
+    "results": {
+      "title": "Your Profile is Ready.",
+      "subtitle": "We've filtered the inventory based on your preferences. Let's find your match.",
+      "view_matches": "View Matches",
+      "restart": "Restart Quiz"
+    }
+  },
+  "forms": {
+    "labels": {
+      "full_name": "Full Name *",
+      "phone_number": "Phone Number *",
+      "city_region": "City / Region",
+      "manufacturer": "Manufacturer",
+      "make": "Make *",
+      "model": "Model *",
+      "year": "Year",
+      "min_year": "Min Year *",
+      "max_year": "Max Year *",
+      "body_type": "Body Type",
+      "body_style": "Body Style",
+      "color": "Color",
+      "plate_code": "Plate Code",
+      "fuel_powertrain": "Fuel / Powertrain",
+      "transmission": "Transmission",
+      "drive_type": "Drive Type",
+      "engine_cc": "Engine Capacity (CC)",
+      "battery_kwh": "Battery Capacity (kWh)",
+      "battery_soh": "Battery Health (SoH %)",
+      "charger_standard": "Charger Standard",
+      "current_mileage": "Current Mileage (KM)",
+      "vin": "VIN / Chassis Number (Optional)",
+      "software_lang": "Software / Dashboard Language",
+      "payment_status": "Payment Status",
+      "libre_status": "Libre (Title) Status",
+      "ownership_history": "Ownership History",
+      "accident_history": "Accident History",
+      "insurance_status": "Insurance Status",
+      "import_origin": "Original Import Origin",
+      "asking_price": "Your Asking Price (ETB)",
+      "max_budget": "Max Budget (ETB or USD) *",
+      "preferred_colors": "Preferred Colors (Comma separated)",
+      "specific_features": "Specific features or requirements?",
+      "urgency": "How soon do you need it?",
+      "additional_notes": "Additional Notes for Inspector"
+    },
+    "placeholders": {
+      "phone": "+251 9...",
+      "corolla_cross": "e.g. Corolla Cross",
+      "year_2024": "2024",
+      "cc_2000": "e.g. 2000",
+      "kwh_60": "e.g. 60.5",
+      "soh_98": "e.g. 98",
+      "price_45m": "e.g. 4500000",
+      "budget_35m": "e.g. 3,500,000",
+      "rav4": "e.g. RAV4",
+      "toyota": "e.g. Toyota",
+      "features": "e.g. Must have panoramic sunroof, under 30k km...",
+      "notes": "Any scratches, missing tools, or recent repairs?"
+    },
+    "sell_step5": {
+      "inspection_location": "Inspection Location",
+      "loading_centers": "Loading inspection centers…",
+      "contact_directly": "If this persists, please contact us directly.",
+      "request_financing": "Request Trade-In Financing",
+      "financing_desc": "Evaluate for a new vehicle upgrade loan."
+    },
+    "sell_step6": {
+      "target_valuation": "Target Valuation",
+      "vehicle": "Vehicle",
+      "fuel_trans": "Fuel & Trans",
+      "payment_libre": "Payment & Libre",
+      "mileage": "Mileage",
+      "contact": "Contact"
+    }
+  }
+}

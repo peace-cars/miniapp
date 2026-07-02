@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+/* =============================================
+   PEACECARS CLIENT — DESIGN TOKENS
+   Adaptive dark/light, consistent with
+   Admin + Staff portals
+   ============================================= */
+
+/* ── LIGHT MODE ─────────────────────────────── */
+:root {
+  /* Backgrounds */
+  --color-bg:             #ffffff;
+  --color-bg-rgb:         255,255,255;
+  --color-bg-secondary:   #f4f4f5;
+  --color-bg-tertiary:    #e9e9eb;
+  --color-bg-elevated:    #ffffff;
+
+  /* Borders */
+  --color-border:         #e4e4e7;
+  --color-border-light:   #f0f0f2;
+
+  /* Text */
+  --color-text-primary:   #111111;
+  --color-text-secondary: #71717a;
+  --color-text-muted:     #a1a1aa;
+
+  /* Accent — PeaceCars signature blue */
+  --color-accent:         #2563eb;
+  --color-accent-hover:   #1d4ed8;
+  --color-accent-light:   #eff6ff;
+  --color-accent-rgb:     37,99,235;
+
+  /* Surfaces — aligned with admin token names */
+  --color-surface-card:   #ffffff;
+  --color-surface-hover:  #f4f4f5;
+
+  /* Semantic */
+  --color-success:        #16a34a;
+  --color-warning:        #d97706;
+  --color-error:          #dc2626;
+
+  /* Shadows */
+  --shadow-card:          0 1px 3px rgba(0,0,0,0.07), 0 0 1px rgba(0,0,0,0.04);
+  --shadow-card-raised:   0 4px 16px rgba(0,0,0,0.09), 0 1px 4px rgba(0,0,0,0.05);
+  --shadow-nav:           0 1px 0 var(--color-border);
+  
+  /* Neomorphism */
+  --neo-shadow-light:     #ffffff;
+  --neo-shadow-dark:      #d4d4d8;
+  --shadow-neo:           8px 8px 16px var(--neo-shadow-dark), -8px -8px 16px var(--neo-shadow-light);
+  --shadow-neo-inset:     inset 6px 6px 12px var(--neo-shadow-dark), inset -6px -6px 12px var(--neo-shadow-light);
+
+  /* Layout */
+  --max-width-site:       1400px;
+}
+
+/* ── DARK MODE ──────────────────────────────── */
+.dark {
+  --color-bg:             #0a0a0a;
+  --color-bg-rgb:         10,10,10;
+  --color-bg-secondary:   #111111;
+  --color-bg-tertiary:    #1a1a1a;
+  --color-bg-elevated:    #141414;
+
+  --color-border:         #27272a;
+  --color-border-light:   #1f1f22;
+
+  --color-text-primary:   #f4f4f5;
+  --color-text-secondary: #a1a1aa;
+  --color-text-muted:     #52525b;
+
+  --color-accent:         #3b82f6;
+  --color-accent-hover:   #60a5fa;
+  --color-accent-light:   #1e3a5f;
+  --color-accent-rgb:     59,130,246;
+
+  --color-surface-card:   #141414;
+  --color-surface-hover:  #1a1a1a;
+
+  --color-success:        #22c55e;
+  --color-warning:        #f59e0b;
+  --color-error:          #ef4444;
+
+  --shadow-card:          0 1px 4px rgba(0,0,0,0.5), 0 0 1px rgba(0,0,0,0.3);
+  --shadow-card-raised:   0 4px 20px rgba(0,0,0,0.6);
+
+  /* Neomorphism */
+  --neo-shadow-light:     #1a1a1a;
+  --neo-shadow-dark:      #000000;
+  --shadow-neo:           8px 8px 16px var(--neo-shadow-dark), -8px -8px 16px var(--neo-shadow-light);
+  --shadow-neo-inset:     inset 6px 6px 12px var(--neo-shadow-dark), inset -6px -6px 12px var(--neo-shadow-light);
+}
+
+/* ── TAILWIND THEME BRIDGE ──────────────────── */
+/* Maps admin/staff token names → client CSS vars */
+@theme {
+  --color-bg-base:        var(--color-bg);
+  --color-bg-secondary:   var(--color-bg-secondary);
+  --color-bg-tertiary:    var(--color-bg-tertiary);
+  --color-bg-elevated:    var(--color-bg-elevated);
+  --color-surface-card:   var(--color-surface-card);
+  --color-surface-hover:  var(--color-surface-hover);
+  --color-border:         var(--color-border);
+  --color-border-subtle:  var(--color-border);
+  --color-text-main:      var(--color-text-primary);
+  --color-text-primary:   var(--color-text-primary);
+  --color-text-secondary: var(--color-text-secondary);
+  --color-text-muted:     var(--color-text-muted);
+  --color-primary-main:   var(--color-accent);
+  --color-accent:         var(--color-accent);
+  --color-accent-hover:   var(--color-accent-hover);
+  --color-accent-light:   var(--color-accent-light);
+  --color-success:        var(--color-success);
+  --color-warning:        var(--color-warning);
+  --color-error-main:     var(--color-error);
+}
+
+/* ── BASE ────────────────────────────────────── */
+body {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text-primary);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', -apple-system, sans-serif;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+img { transition: opacity 0.2s ease; }
+
+/* ── MARKETPLACE CARD ────────────────────────── */
+/* Native-app refined: rounded-2xl, subtle border */
+.market-card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  border-radius: 0;
+  background: transparent;
+  transition: opacity 0.15s ease;
+}
+.market-card:hover { opacity: 0.92; }
+
+.market-card-img {
+  width: 100%;
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--color-bg-tertiary);
+  border: 1px solid var(--color-border);
+}
+
+.market-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.market-card:hover .market-card-img img { transform: scale(1.03); }
+
+.market-card-body {
+  padding: 10px 2px 4px;
+}
+
+.market-card-price {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--color-text-primary);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.market-card-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  margin-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.market-card-meta {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  margin-top: 3px;
+  font-weight: 500;
+}
+
+/* ── NATIVE CARD (admin/staff compat) ────────── */
+.native-card {
+  background: var(--color-surface-card);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  box-shadow: var(--shadow-card);
+}
+.native-card-raised {
+  background: var(--color-surface-card);
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+  box-shadow: var(--shadow-card-raised);
+}
+
+/* ── SITE CONTAINER ──────────────────────────── */
+.site-container {
+  max-width: var(--max-width-site);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+@media (min-width: 768px) {
+  .site-container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+/* ── NEOMORPHISM UTILITIES ───────────────────── */
+.neo-card {
+  background: var(--color-bg-secondary);
+  box-shadow: var(--shadow-neo);
+  border: none;
+}
+.neo-inset {
+  background: var(--color-bg-secondary);
+  box-shadow: var(--shadow-neo-inset);
+  border: none;
+}
+.neo-button {
+  background: var(--color-bg-secondary);
+  box-shadow: var(--shadow-neo);
+  border: none;
+  transition: all 0.2s ease;
+  color: var(--color-text-primary);
+}
+.neo-button:active {
+  box-shadow: var(--shadow-neo-inset);
+}
+
+/* ── BUTTONS ─────────────────────────────────── */
+.btn-primary {
+  background: var(--color-accent);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.1s ease;
+  letter-spacing: -0.01em;
+}
+.btn-primary:hover  { background: var(--color-accent-hover); }
+.btn-primary:active { transform: scale(0.97); }
+
+.btn-secondary {
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1.5px solid var(--color-border);
+  cursor: pointer;
+  transition: border-color 0.15s ease, transform 0.1s ease;
+}
+.btn-secondary:hover  { border-color: var(--color-text-secondary); }
+.btn-secondary:active { transform: scale(0.97); }
+
+.peace-btn-primary {
+  background: var(--color-text-primary);
+  color: var(--color-bg);
+  font-weight: 700;
+  font-size: 15px;
+  padding: 13px 22px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s ease, transform 0.1s ease;
+}
+.peace-btn-primary:hover  { opacity: 0.88; }
+.peace-btn-primary:active { transform: scale(0.97); }
+
+.peace-btn-secondary {
+  background: var(--color-bg-secondary);
+  color: var(--color-text-primary);
+  font-weight: 600;
+  font-size: 15px;
+  padding: 13px 22px;
+  border-radius: 12px;
+  border: 1.5px solid var(--color-border);
+  cursor: pointer;
+  transition: border-color 0.15s ease, transform 0.1s ease;
+}
+.peace-btn-secondary:hover  { border-color: var(--color-text-secondary); }
+.peace-btn-secondary:active { transform: scale(0.97); }
+
+/* ── SECTION HEADERS ─────────────────────────── */
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--color-text-primary);
+  letter-spacing: -0.03em;
+}
+
+.section-link {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-accent);
+  text-decoration: none;
+}
+.section-link:hover { text-decoration: underline; }
+
+/* ── PILL / CHIP (filter pills) ──────────────── */
+/* Same rounded-full pill style as admin/staff */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 7px 16px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+  letter-spacing: -0.01em;
+}
+.chip:hover {
+  border-color: var(--color-text-secondary);
+  color: var(--color-text-primary);
+  background: var(--color-bg-secondary);
+}
+.chip.active {
+  background: var(--color-text-primary);
+  color: var(--color-bg);
+  border-color: var(--color-text-primary);
+}
+
+/* ── TAB BAR PILL (same as admin tabs) ─────── */
+.pill-tabs {
+  display: flex;
+  gap: 6px;
+  background: var(--color-bg-secondary);
+  padding: 6px;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.pill-tabs::-webkit-scrollbar { display: none; }
+
+.pill-tab {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 18px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: all 0.15s ease;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: var(--color-text-secondary);
+}
+.pill-tab:hover {
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+}
+.pill-tab.active {
+  background: var(--color-bg);
+  color: var(--color-accent);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.10);
+  border: 1px solid var(--color-border);
+}
+
+/* ── SCROLLBAR SUPPRESSION ───────────────────── */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* ── THEME TRANSITION ────────────────────────── */
+.theme-transitioning,
+.theme-transitioning * {
+  transition:
+    background-color 0.25s ease,
+    border-color     0.25s ease,
+    color            0.25s ease !important;
+}
+
+/* ── GLASS MORPHISM (top bar/bottom nav) ────── */
+.glass-light {
+  background: rgba(255,255,255,0.82);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(0,0,0,0.08);
+}
+.glass-dark {
+  background: rgba(10,10,10,0.82);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255,255,255,0.10);
+}
+
+/* ── AURORA COMPAT ───────────────────────────── */
+.aurora-glass     { background: var(--color-bg); border: 1px solid var(--color-border); }
+.kinetic-gradient { background: var(--color-text-primary); }

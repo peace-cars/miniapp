@@ -1,0 +1,353 @@
+{
+  "nav": {
+    "home": "መነሻ",
+    "sell": "ሽያጭ",
+    "inventory": "መኪናዎች",
+    "messages": "መልዕክቶች",
+    "profile": "መገለጫ",
+    "sourcing": "የግል ፍለጋ",
+    "dashboard": "ዳሽቦርድ",
+    "login": "ግባ",
+    "logout": "ውጣ",
+    "desktop_buy": "ግዛ",
+    "desktop_sell": "ሽጥ",
+    "desktop_source": "ፈልግልኝ",
+    "desktop_track": "ክትትል",
+    "desktop_community": "ማህበረሰብ",
+    "desktop_messages": "መልዕክቶች",
+    "desktop_profile": "መገለጫ",
+    "more": "ተጨማሪ",
+    "dark_mode": "የጨለማ ገፅታ",
+    "light_mode": "የብርሃን ገፅታ",
+    "off": "አጥፋ",
+    "on": "አብራ",
+    "sign_out": "ውጣ",
+    "sign_in": "ግባ",
+    "install_app": "መተግበሪያ ጫን",
+    "title_inventory": "መኪናዎች",
+    "title_sell": "ሽያጭ",
+    "title_custom_sourcing": "ፈልግልኝ",
+    "title_track": "ክትትል",
+    "title_messages": "መልዕክቶች",
+    "title_community": "ማህበረሰብ",
+    "title_profile": "መገለጫ",
+    "title_compare": "አወዳድር",
+    "title_sourcing": "የእኔ ፍለጋዎች",
+    "title_custom_order": "ልዩ ትዕዛዝ",
+    "track": "ትዕዛዝ ተከታተል",
+    "community": "ማህበረሰብ",
+    "compare": "መኪናዎችን አወዳድር",
+    "my_sourcing": "የእኔ ፍለጋ"
+  },
+  "home": {
+    "hero_title": "በሙሉ እምነት የሚቀጥለውን መኪናዎን ያግኙ",
+    "hero_subtitle": "የኢትዮጵያ ቀዳሚ መድረክ ለተረጋገጡ መኪናዎች፣ ግልፅ ዋጋዎች እና ቀላል ግብይቶች።",
+    "cta_buy": "መኪናዎችን ያስሱ",
+    "cta_sell": "መኪናዎን ይሽጡ"
+  },
+  "inventory": {
+    "sort": {
+      "featured": "ተመራጭ",
+      "price_low": "ዋጋ: ከዝቅተኛ ወደ ከፍተኛ",
+      "price_high": "ዋጋ: ከከፍተኛ ወደ ዝቅተኛ",
+      "year_new": "ዓመት: ከአዲስ ወደ አሮጌ",
+      "km_low": "ኪሎሜትር: ከዝቅተኛ ወደ ከፍተኛ"
+    },
+    "payment": {
+      "duty_free": "በባንክ የተፈቀደ",
+      "duty_paid": "ቀረጥ የተከፈለበት",
+      "duty_pending": "ቀረጥ ያልተከፈለበት"
+    },
+    "badges": {
+      "electric": "የኤሌክትሪክ",
+      "interested": "ፍላጎት ያላቸው"
+    },
+    "status": {
+      "used": "ያገለገለ",
+      "new": "አዲስ"
+    },
+    "filters": {
+      "make": "የመኪና አይነት",
+      "fuel_type": "የነዳጅ አይነት",
+      "payment_status": "የክፍያ ሁኔታ",
+      "price": "ዋጋ (በሚሊዮን ብር)",
+      "year": "ዓመት",
+      "clear_all": "ማጣሪያዎችን አጽዳ",
+      "clear": "ሁሉንም አጽዳ",
+      "show_results": "{{count}} ውጤቶችን አሳይ"
+    },
+    "header": {
+      "title": "መኪናዎችን ያስሱ",
+      "subtitle": "በአዲስ አበባ የተፈተሹ እና የተረጋገጡ {{count}} መኪናዎች"
+    },
+    "search": {
+      "filters": "ማጣሪያዎች",
+      "placeholder": "የመኪና አይነት ይፈልጉ..."
+    },
+    "results": {
+      "count": "ከ {{total}} መኪናዎች ውስጥ <0>{{filtered}}</0>"
+    },
+    "empty": {
+      "title": "ምንም የተገኘ ነገር የለም",
+      "subtitle": "እባክዎ የማጣሪያ ምርጫዎን ወይም የፍለጋ ቃልዎን ያስተካክሉ።"
+    }
+  },
+  "common": {
+    "back": "ወደኋላ",
+    "next": "ቀጣይ",
+    "submit": "አስገባ",
+    "cancel": "ሰርዝ",
+    "loading": "በመጫን ላይ...",
+    "error": "ስህተት ተከስቷል",
+    "success": "ተሳክቷል"
+  },
+  "language": {
+    "select": "ቋንቋ ይምረጡ",
+    "en": "English",
+    "am": "አማርኛ"
+  },
+  "details": {
+    "actions": {
+      "inquire": "ጠይቅ",
+      "contact_advisor": "አማካሪ ያነጋግሩ",
+      "trade_in": "የቅያሬ ግምት",
+      "telegram": "በቴሌግራም ይጠይቁ",
+      "community": "በማህበረሰቡ ውስጥ ይወያዩ"
+    },
+    "badges": {
+      "inspected": "ተመርምሯል",
+      "certified": "የተረጋገጠ",
+      "delivery": "ለርክክብ ዝግጁ",
+      "integrity": "ታማኝነቱ የተረጋገጠ",
+      "free_delivery": "በአዲስ አበባ ነጻ ርክክብ",
+      "registry": "ዋና መዝገብ"
+    },
+    "stats": {
+      "viewed_today": "ዛሬ የታየ",
+      "inquiries": "ጥያቄዎች"
+    },
+    "specs": {
+      "powertrain": "የሀይል ምንጭ",
+      "architecture": "አርክቴክቸር",
+      "certified_mileage": "የተረጋገጠ ርቀት",
+      "kilometers": "ኪሎሜትሮች",
+      "valuation": "ግምት",
+      "ethiopian_birr": "የኢትዮጵያ ብር",
+      "payment": "ክፍያ",
+      "status": "ሁኔታ",
+      "fully_paid": "ሙሉ በሙሉ የተከፈለ",
+      "electric": "ኤሌክትሪክ",
+      "year": "ዓ.ም.",
+      "fuel_type": "የነዳጅ አይነት",
+      "payment_status": "የክፍያ ሁኔታ",
+      "certified_km": "የተረጋገጠ ኪ.ሜ.",
+      "vin": "የሻንሲ ቁጥር",
+      "plate": "የሰሌዳ ኮድ",
+      "os_lang": "የሲስተም ቋንቋ",
+      "range": "ርቀት",
+      "battery": "የባትሪ መጠን",
+      "motor": "የሞተር ጉልበት",
+      "drivetrain": "የጎማ አሽከርካሪ",
+      "interior": "ውስጥ"
+    },
+    "similar": {
+      "title": "እነዚህንም ሊወዱ ይችላሉ",
+      "subtitle": "ተመሳሳይ መኪኖች ከኛ ስብስብ"
+    },
+    "trade_in": {
+      "title": "የቅያሬ ግምት",
+      "submit": "የቅያሬ ዋጋን አስላ",
+      "badge": "የፍትሃዊነት ትንታኔ"
+    },
+    "glance": {
+      "title": "በአጭሩ"
+    },
+    "price": {
+      "starting_at": "መነሻ ዋጋ"
+    },
+    "standard": {
+      "title": "የፒስ መስፈርት"
+    },
+    "portfolio": {
+      "title": "የቴክኒክ ማህደር"
+    },
+    "gallery": {
+      "main_image": "{{model}} - ምስል {{current}}",
+      "thumb": "ናሙና {{current}}",
+      "counter": "ከ {{total}} - {{current}}ኛው",
+      "close": "ማሳያ ዝጋ",
+      "slide": "ተንሸራታች {{current}}"
+    }
+  },
+  "sell": {
+    "landing": {
+      "title": "የማንነት ማረጋገጫ",
+      "subtitle": "መኪናዎን ለሙያዊ ግምገማ ለማቅረብ እባክዎ ይግቡ።",
+      "signin": "ለመቀጠል ይግቡ"
+    },
+    "auth": {
+      "title": "የማንነት ማረጋገጫ።",
+      "subtitle": "መኪናዎን ለሙያዊ ግምገማ ለማቅረብ እባክዎ ይግቡ።",
+      "sign_in": "ለመቀጠል ይግቡ"
+    },
+    "steps": {
+      "contact": {
+        "title": "የመገናኛ መረጃ።",
+        "subtitle": "ግምገማዎን ይዘን እንዴት እናግኝዎት?",
+        "nav": "አድራሻ"
+      },
+      "identity": {
+        "title": "የመኪና ማንነት።",
+        "subtitle": "የመኪናዎ መሰረታዊ መረጃ።",
+        "nav": "ማንነት",
+        "select_make": "አምራች ይምረጡ..."
+      },
+      "specs": {
+        "title": "የቴክኒክ ዝርዝሮች።",
+        "subtitle": "የሞተር፣ የማርሽ እና የሀይል ዝርዝሮች።",
+        "nav": "ዝርዝሮች"
+      },
+      "history": {
+        "title": "ህጋዊና ታሪክ።",
+        "subtitle": "ለትክክለኛ የዋጋ ግምት አስፈላጊ ዝርዝሮች።",
+        "nav": "ታሪክ"
+      },
+      "photos": {
+        "title": "ፎቶዎች እና ምርመራ።",
+        "subtitle": "ግልፅ ፎቶዎችን ይስቀሉ (ፊት፣ ጀርባ፣ ውስጥ፣ ሊብሬ) እና የርክክብ ማዕከል ይምረጡ።",
+        "nav": "ፎቶዎች"
+      },
+      "review": {
+        "title": "ገምግም እና አቅርብ።",
+        "subtitle": "ማቅረብዎ በፊት የመኪናዎን ዝርዝሮች ያረጋግጡ።",
+        "nav": "ግምገማ"
+      },
+      "success": {
+        "title": "ጥያቄው ደርሷል",
+        "subtitle": "የመኪናዎን ዝርዝሮች ደህንነቱ በተጠበቀ ሁኔታ ተቀብለናል። የገምጋሚ ቡድናችን ዝርዝሩን አጣርቶ ያገኝዎታል።"
+      }
+    },
+    "success": {
+      "title": "ጥያቄው ደርሷል።",
+      "body_prefix": "የሚከተለውን መኪናዎን ዝርዝሮች ደህንነቱ በተጠበቀ ሁኔታ ተቀብለናል",
+      "body_suffix": "የገምጋሚ ቡድናችን ዝርዝሩን አጣርቶ ያገኝዎታል"
+    },
+    "nav": {
+      "vehicle_details": "የመኪና ዝርዝሮች",
+      "review_details": "ዝርዝሮችን ግምግም"
+    },
+    "actions": {
+      "track": "ሁኔታን ተከታተል",
+      "return": "ወደ ማሳያ ክፍል ተመለስ",
+      "submitting": "በመላክ ላይ...",
+      "confirm": "አረጋግጥ እና ላክ",
+      "continue": "ቀጥል"
+    }
+  },
+  "match_finder": {
+    "title": "ተስማሚ መኪና አፈላላጊ",
+    "questions": {
+      "purpose": {
+        "text": "መኪናውን በብዛት የት ነው የሚነዱት?",
+        "subtitle": "ይህ ትክክለኛውን የመኪና አይነት ለመምረጥ ይረዳናል።",
+        "options": {
+          "CITY": { "label": "ለከተማ ውስጥ", "desc": "ሴዳን፣ ሃችባክ፣ አነስተኛ መኪና" },
+          "OFFROAD": { "label": "ከከተማ ውጪ / ለጉዞ", "desc": "የቤት አውቶሞቢል (SUV)፣ ክሮስኦቨር፣ 4×4" },
+          "FAMILY": { "label": "ለቤተሰብ / ለረጅም ርቀት", "desc": "ሚኒቫን፣ ትልቅ SUV" }
+        }
+      },
+      "priority": {
+        "text": "በመኪናዎ ላይ ቅድሚያ የሚሰጡት ምንድን ነው?",
+        "subtitle": "በምርጫዎ መሰረት ውጤቶችን እናቀርባለን።",
+        "options": {
+          "EFFICIENCY": { "label": "የነዳጅ ቁጠባ / ኤሌክትሪክ", "desc": "ኤሌክትሪክ ወይም ሃይብሪድ" },
+          "LUXURY": { "label": "ምቾት እና ቅንጦት", "desc": "ከፍተኛ ጥራት ያለው የውስጥ ክፍል እና ገፅታዎች" },
+          "RESALE": { "label": "ጥንካሬ እና የመሸጫ ዋጋ", "desc": "የረጅም ጊዜ ዋጋ" }
+        }
+      },
+      "budget": {
+        "text": "የበጀትዎ መጠን ስንት ነው?",
+        "subtitle": "ሁሉም ዋጋዎች በኢትዮጵያ ብር ናቸው።",
+        "options": {
+          "BUDGET": { "label": "ከ 3 ሚሊዮን ብር በታች", "desc": "ተግባራዊ እና አስተማማኝ" },
+          "MID": { "label": "ከ 3ሚ - 8ሚ ብር", "desc": "ምርጥ የዋጋ ተመጣጣኝነት" },
+          "PREMIUM": { "label": "ከ 8 ሚሊዮን ብር በላይ", "desc": "ከፍተኛ ደረጃ ምርጫ" }
+        }
+      }
+    },
+    "results": {
+      "title": "ምርጫዎ ተዘጋጅቷል።",
+      "subtitle": "በምርጫዎ መሰረት መኪናዎችን አጣርተናል። ለእርስዎ የሚስማማውን እንፈልግ።",
+      "view_matches": "ተስማሚ መኪኖችን አሳይ",
+      "restart": "እንደገና ጀምር"
+    }
+  },
+  "forms": {
+    "labels": {
+      "full_name": "ሙሉ ስም *",
+      "phone_number": "ስልክ ቁጥር *",
+      "city_region": "ከተማ / ክልል",
+      "manufacturer": "አምራች",
+      "make": "የመኪና አይነት *",
+      "model": "ሞዴል *",
+      "year": "ዓመት",
+      "min_year": "ዝቅተኛ ዓመት *",
+      "max_year": "ከፍተኛ ዓመት *",
+      "body_type": "የመኪናው አካል አይነት",
+      "body_style": "የመኪናው አካል ቅርፅ",
+      "color": "ቀለም",
+      "plate_code": "የሰሌዳ ኮድ",
+      "fuel_powertrain": "የነዳጅ አይነት / ሞተር",
+      "transmission": "ማርሽ",
+      "drive_type": "አሽከርካሪ ጎማዎች",
+      "engine_cc": "የሞተር አቅም (CC)",
+      "battery_kwh": "የባትሪ አቅም (kWh)",
+      "battery_soh": "የባትሪ ጤንነት (SoH %)",
+      "charger_standard": "የቻርጀር አይነት",
+      "current_mileage": "የተጓዘው ኪሎሜትር (KM)",
+      "vin": "የሻንሲ ቁጥር (አማራጭ)",
+      "software_lang": "የሶፍትዌር / ዳሽቦርድ ቋንቋ",
+      "payment_status": "የክፍያ ሁኔታ",
+      "libre_status": "የሊብሬ ሁኔታ",
+      "ownership_history": "የባለቤትነት ታሪክ",
+      "accident_history": "የአደጋ ታሪክ",
+      "insurance_status": "የኢንሹራንስ ሁኔታ",
+      "import_origin": "የመጣበት ሀገር",
+      "asking_price": "የሚጠይቁት ዋጋ (በብር)",
+      "max_budget": "ከፍተኛ በጀት (በብር ወይም በዶላር) *",
+      "preferred_colors": "ተመራጭ ቀለሞች (በኮማ የተለየ)",
+      "specific_features": "ልዩ ፍላጎቶች ወይም ዝርዝሮች?",
+      "urgency": "ምን ያህል ፍጥነት ይፈልጋሉ?",
+      "additional_notes": "ለተቆጣጣሪው ተጨማሪ ማስታወሻዎች"
+    },
+    "placeholders": {
+      "phone": "+251 9...",
+      "corolla_cross": "ለምሳሌ፦ ኮሮላ ክሮስ",
+      "year_2024": "2024",
+      "cc_2000": "ለምሳሌ፦ 2000",
+      "kwh_60": "ለምሳሌ፦ 60.5",
+      "soh_98": "ለምሳሌ፦ 98",
+      "price_45m": "ለምሳሌ፦ 4500000",
+      "budget_35m": "ለምሳሌ፦ 3,500,000",
+      "rav4": "ለምሳሌ፦ ራቭ 4",
+      "toyota": "ለምሳሌ፦ ቶዮታ",
+      "features": "ለምሳሌ፦ ሰንሩፍ ያለው፣ ከ30ሺህ ኪ.ሜ በታች...",
+      "notes": "ማንኛውም ጭረት፣ የጎደለ እቃ፣ ወይም የቅርብ ጊዜ ጥገና አለ?"
+    },
+    "sell_step5": {
+      "inspection_location": "የፍተሻ ማዕከል",
+      "loading_centers": "የፍተሻ ማዕከላት በመጫን ላይ...",
+      "contact_directly": "ይህ ከቀጠለ እባክዎን በቀጥታ ያነጋግሩን።",
+      "request_financing": "የንግድ ብድር ይጠይቁ",
+      "financing_desc": "ለአዲስ ተሽከርካሪ ግዢ ብድር ይገመገሙ።"
+    },
+    "sell_step6": {
+      "target_valuation": "የታለመ ግምት",
+      "vehicle": "መኪና",
+      "fuel_trans": "ነዳጅ እና ማርሽ",
+      "payment_libre": "ክፍያ እና ሊብሬ",
+      "mileage": "ኪሎሜትር",
+      "contact": "አድራሻ"
+    }
+  }
+}
